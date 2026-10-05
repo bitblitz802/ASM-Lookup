@@ -1,0 +1,16 @@
+# API private keys — never commit
+*.pem
+*.p8
+
+# Input serial lists and output (may contain asset data)
+serials*.txt
+*.csv
+
+# Environment files
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
